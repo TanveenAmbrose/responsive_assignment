@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+<header class="md:container md:mx-auto">
+
+    <!--Navigation bar-->
     <div class="navbar bg-base-100">
-        <div class="navbar-start">
+        <div class="flex-1">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg
@@ -44,11 +46,114 @@
             <li><a href="">Contact</a></li>
           </ul>
         </div>
-        <div class="navbar-end">
-          <a class="btn btn-accent bg-orange-500 text-white">Log In</a>
+        <div class="">
+          <a class="btn btn-accent bg-orange-500 text-white">LOG IN</a>
         </div>
       </div>
     
+
+      <!--carosel-->
+      <div class="carousel bg-orange-100 w-full lg:h-[450px]">
+
+        <!--slide 1-->
+        <div id="slide1" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row lg:P-24 p-4 lg:gap-20">
+                <div class="flex-1 pl-5 space-y-3">
+                    <h1 class="text-6xl font-bold">Ride-on Mountain Rider <br> with Joy</h1><br>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p><br>
+                    <button class="btn btn-success bg-orange-500 ">Purchage</button>
+                </div>
+                <div class="flex-1 pl-32">
+                    <img
+            src="biker/biker-zone-resources-main/biker-zone-resources-main/images/slider/bike1.png"
+            class="w-[400px] pt-2" />
+                </div>
+            </div>
+          
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide4" class="btn btn-square">❮</a>
+            <a href="#slide2" class="btn btn-square">❯</a>
+          </div>
+        </div>
+
+
+
+
+
+        <!--slide 2-->
+        <div id="slide2" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row lg:P-24 p-4 lg:gap-20">
+                <div class="flex-1 pl-5 space-y-3">
+                    <h1 class="text-6xl font-bold">Ride-on MK-27 Rush <br> with No FEAR</h1><br>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p><br>
+                    <button class="btn btn-success bg-orange-500 ">Purchage</button>
+                </div>
+                <div class="flex-1 pl-32">
+                    <img
+            src="biker/biker-zone-resources-main/biker-zone-resources-main/images/slider/bike2.png"
+            class="w-[400px] pt-2" />
+                </div>
+            </div>
+          
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-square">❮</a>
+            <a href="#slide3" class="btn btn-square">❯</a>
+          </div>
+        </div>
+
+
+
+
+
+
+        <!--slide 3-->
+        <div id="slide3" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row lg:P-24 p-4 lg:gap-20">
+                <div class="flex-1 pl-5 space-y-3">
+                    <h1 class="text-6xl font-bold">Ride-on Rodies-750 <br> with Nothing</h1><br>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p><br>
+                    <button class="btn btn-success bg-orange-500 ">Purchage</button>
+                </div>
+                <div class="flex-1 pl-32">
+                    <img
+            src="biker/biker-zone-resources-main/biker-zone-resources-main/images/slider/bike3.png"
+            class="w-[400px] pt-2" />
+                </div>
+            </div>
+          
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-square">❮</a>
+            <a href="#slide4" class="btn btn-square">❯</a>
+          </div>
+        </div>
+
+
+
+
+        <!--slide 4-->
+        <div id="slide4" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row lg:P-24 p-4 lg:gap-20">
+                <div class="flex-1 pl-5 space-y-3">
+                    <h1 class="text-6xl font-bold">Ride-on R15 v3 <br> with Smile</h1><br>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p><br>
+                    <button class="btn btn-success bg-orange-500 ">Purchage</button>
+                </div>
+                <div class="flex-1 pl-32">
+                    <img
+            src="biker/biker-zone-resources-main/biker-zone-resources-main/images/slider/bike4.png"
+            class="w-[400px] pt-2" />
+                </div>
+            </div>
+          
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" class="btn btn-square">❮</a>
+            <a href="#slide1" class="btn btn-square">❯</a>
+          </div>
+        </div>
+
+
+        
+      </div>
 </header>
 </body>
 </html>
