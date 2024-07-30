@@ -7,37 +7,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header class="bg-gradient-to-r from-orange-300 to-orange-100 px-24">
-
-
-    <!--navigation-->
-    <nav class="">
-        <div>
-            <img class="w-60 p-4 bg-gradient-to-r from-orange-300 to-orange-10" src="responsive-assignment-main (2)/responsive-assignment-main/Option-1 Penguin Fashion/Logo, Icon/Group 33072.png" alt="...">
+<header>
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a href="">Home</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-3xl font-serif">Biker Zone</a>
         </div>
-    </nav>
-
-
-    <!--penguins-->
-    <div class="px-4 flex justify-between items-center">
-        <div class="text-5xl size-3/4">
-            <h1 class="text-orange-500 font-mono ">BE THE PENGUINS </h1> <h1>OF WINTER</h1> <br>
-            <p class="text-lg font-serif">This is a website where you can shop as much as you want</p> <br>
-            <span class="text-xl">
-                <button class="bg-green-400 px-8 py-4 rounded-2xl"><img class="inline w-8" src="responsive-assignment-main (2)/responsive-assignment-main/Option-1 Penguin Fashion/Logo, Icon/shopping-cart 1.png" alt="">Buy Now</button>
-            </span>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
         </div>
-        <div class="size-1/4">
-            <img class="pr-16" src="responsive-assignment-main (2)/responsive-assignment-main/Option-1 Penguin Fashion/Logo, Icon/Group 33091.png" alt="">
+        <div class="navbar-end">
+          <a class="btn btn-accent bg-orange-500 text-white">Log In</a>
         </div>
-    </div>
-
-
-
-   </header>
-   <main>
-
-   </main>
-
+      </div>
+    
+</header>
 </body>
 </html>
